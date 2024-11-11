@@ -1,0 +1,28 @@
+.prompt-builder {
+  display: flex;
+  gap: 8px;
+  flex: 2;
+}
+
+.prompt-input {
+  flex: 1;
+  padding: 8px 12px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.copy-button,
+.clear-button {
+  padding: 8px 16px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background: white;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.copy-button:hover,
+.clear-button:hover {
+  background: #f0f0f0;
+} 
